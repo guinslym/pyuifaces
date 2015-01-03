@@ -1,0 +1,6 @@
+setup.py
+pyuifaces.egg-info/PKG-INFO
+pyuifaces.egg-info/SOURCES.txt
+pyuifaces.egg-info/dependency_links.txt
+pyuifaces.egg-info/requires.txt
+pyuifaces.egg-info/top_level.txt
