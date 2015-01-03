@@ -1,19 +1,15 @@
-# encrypted-files
+# pyuifaces
 
-Secure and easy to use encrypted files for Python.
+###description
 
 
 ## How to install ##
 
-    pip install uifaces
+    pip install pyuifaces
 
 
 
-Example:
+#Example:
 
-
-
-
-Json Example
 
 
