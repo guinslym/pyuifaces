@@ -17,10 +17,11 @@ setup(
     url='https://github.com/guinslym/pyuifaces',
     license=open("LICENSE").read(),
     author='Guinsly Mondésir',
+    author_email='agmond@gmx.com.br',
     description="",
     long_description=desc,
     packages=find_packages(),
-    requires="requests",
+    requires=["requests"],
     install_requires=["requests"],
 
     classifiers=[

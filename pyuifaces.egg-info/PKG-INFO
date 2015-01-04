@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: pyuifaces
-Version: 0.0.4
+Version: 0.0.5
 Summary: UNKNOWN
 Home-page: https://github.com/guinslym/pyuifaces
 Author: Guinsly Mondésir
@@ -28,36 +28,71 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-Description: # encrypted-files
+Description: # pyuifaces
         
-        Secure and easy to use encrypted files for Python.
-        
+        ###description
+        This package uses UIfaces.com ( https://www.uifaces.com/ ) to **fake user pictures** on your app. You would like to use real user images for your app. This package might be the right one for you. All the images comes from the 'authorized' section from uifaces and all images are real Twitter users images or avatar, these users previously agreeded to share their images.
         
         ## How to install ##
         
-            pip install uifaces
+            pip install pyuifaces
         
         
+        #Example:
+        ####FAKING A RANDOM USER IMAGE
+        ```python
+        user_image = PyUIFaces()
+        user_image_link = user_image.face()
+        print(user_image_link)
+        => https://s3.amazonaws.com/uifaces/faces/twitter/anton0kurilov/128.jpg
+        ```
         
-        Example:
+        ####FAKING A SPECIFIC IMAGE SIZE
+        ```python
+        user_image = PyUIFaces(False, 'random', 'normal')
+        user_image_link = user_image.face()
+        print(user_image_link)
+        => https://s3.amazonaws.com/uifaces/faces/twitter/karalek/48.jpg
+        ```
+        
+        ####FAKING A USER IMAGE BY GENRE
+        ```python
+        foo = PyUIFaces()
+        woman = foo.woman()
+        man = foo.man()
+        ```
+        
+        ####FAKING A SPECIFIC TWITTER USER IMAGE
+        ```python
+        #the user be also in the uifaces.com api
+        foo = PyUIFaces(True, 'guinslym')
+        guinslym_link = foo.face()
+        ```
+        
+        [![guinslym](https://s3.amazonaws.com/uifaces/faces/twitter/guinslym/128.jpg)](http://uifaces.com/guinslym)
         
         
+        ## Contributing
         
-        
-        Json Example
-        
-        
+        1. Star it :)
+        2. Fork it ( https://github.com/guinslym/pyuifaces/fork )
+        3. Create your feature branch (`git checkout -b my-new-feature`)
+        4. Test it
+        5. Commit your changes (`git commit -am 'Add some feature'`)
+        6. Push to the branch (`git push origin my-new-feature`)
+        7. Create a new Pull Request
         
 Keywords: uifaces,avatar,picture,image
 Platform: UNKNOWN
 Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.4
 Classifier: Programming Language :: Python :: 3
 Classifier: Programming Language :: Python :: 2.7
-Requires: r
-Requires: e
-Requires: q
-Requires: u
-Requires: e
-Requires: s
-Requires: t
-Requires: s
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Operating System :: OS Independent
+Classifier: License :: Public Domain
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Environment :: Console
+Requires: requests

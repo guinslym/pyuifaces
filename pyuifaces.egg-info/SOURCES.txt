@@ -1,4 +1,6 @@
 setup.py
+pyuifaces/__init__.py
+pyuifaces/pyuifaces.py
 pyuifaces.egg-info/PKG-INFO
 pyuifaces.egg-info/SOURCES.txt
 pyuifaces.egg-info/dependency_links.txt
