@@ -12,7 +12,7 @@ except ImportError:
 
 setup(
     name='pyuifaces',
-    version='0.0.1',
+    version='0.0.5',
     keywords=['uifaces', 'avatar', 'picture', 'image'],
     url='https://github.com/guinslym/pyuifaces',
     license=open("LICENSE").read(),
@@ -23,8 +23,17 @@ setup(
     requires="requests",
     install_requires=["requests"],
 
-    classifiers=['Intended Audience :: Developers',
-                 'Programming Language :: Python :: 3.4',
-                 'Programming Language :: Python :: 3',
-                 'Programming Language :: Python :: 2.7'],
+    classifiers=[
+        'Intended Audience :: Developers',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 2.6',
+        "Intended Audience :: End Users/Desktop",
+        "Operating System :: OS Independent",
+        "License :: Public Domain",
+        "Development Status :: 4 - Beta",
+        "Topic :: Internet :: WWW/HTTP",
+        "Environment :: Console"
+                 ],
 )
