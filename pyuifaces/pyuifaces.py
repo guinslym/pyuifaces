@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: UTF-8 -*-
+
 class PyUIFaces(object):
 
 		USERNAME= ['brad_frost', 'iflendra', 'kastov_yury', 'vladabazhan', 'csswizardry', 'eduardo_olv', 
