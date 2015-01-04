@@ -36,7 +36,7 @@ man = foo.man()
 ```python
 #the user be also in the uifaces.com api
 foo = PyUIFaces(True, 'guinslym')
-foo = foo.face()
+guinslym_link = foo.face()
 ```
 
 [![guinslym](https://s3.amazonaws.com/uifaces/faces/twitter/guinslym/128.jpg)](http://uifaces.com/guinslym)
