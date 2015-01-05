@@ -4,12 +4,6 @@
 from distutils.core import setup
 from setuptools import find_packages
 
-try:
-    import pypandoc
-    desc = pypandoc.convert("README.md", "rst")
-except ImportError:
-    desc = open("README.md").read()
-
 setup(
     name='pyuifaces',
     version='0.0.5',
@@ -19,7 +13,6 @@ setup(
     author='Guinsly Mondésir',
     author_email='agmond@gmx.com.br',
     description="This package uses UIfaces.com ( https://www.uifaces.com/ ) to fake user picture on your app. ",
-    long_description=desc,
     packages=find_packages(),
     requires=["requests"],
     install_requires=["requests"],
