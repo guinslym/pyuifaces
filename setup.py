@@ -6,9 +6,9 @@ from setuptools import find_packages
 
 try:
     import pypandoc
-    desc = pypandoc.convert("README.rst", "rst")
+    desc = pypandoc.convert("README.md", "rst")
 except ImportError:
-    desc = open("README.rst").read()
+    desc = open("README.md").read()
 
 setup(
     name='pyuifaces',
