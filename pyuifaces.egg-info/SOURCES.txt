@@ -1,4 +1,4 @@
-README.rst
+setup.cfg
 setup.py
 pyuifaces/__init__.py
 pyuifaces/pyuifaces.py

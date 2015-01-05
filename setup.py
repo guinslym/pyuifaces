@@ -18,7 +18,7 @@ setup(
     license=open("LICENSE").read(),
     author='Guinsly Mondésir',
     author_email='agmond@gmx.com.br',
-    description="",
+    description="This package uses UIfaces.com ( https://www.uifaces.com/ ) to fake user picture on your app. ",
     long_description=desc,
     packages=find_packages(),
     requires=["requests"],

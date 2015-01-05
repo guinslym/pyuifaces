@@ -1,7 +1,7 @@
 Metadata-Version: 1.1
 Name: pyuifaces
 Version: 0.0.5
-Summary: UNKNOWN
+Summary: This package uses UIfaces.com ( https://www.uifaces.com/ ) to fake user picture on your app. 
 Home-page: https://github.com/guinslym/pyuifaces
 Author: Guinsly Mondésir
 Author-email: agmond@gmx.com.br
