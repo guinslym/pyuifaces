@@ -9,7 +9,7 @@ setup(
     version='0.0.5',
     keywords=['uifaces', 'avatar', 'picture', 'image'],
     url='https://github.com/guinslym/pyuifaces',
-    license=open("LICENSE").read(),
+    license='MIT',
     author='Guinsly Mondésir',
     author_email='agmond@gmx.com.br',
     description="This package uses UIfaces.com ( https://www.uifaces.com/ ) to fake user picture on your app. ",
